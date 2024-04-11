@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ASP.NET</title>
+</head>
+<body>
+    <body>
+        <input type="checkbox" id="checkbox-cover">
+        <input type="checkbox" id="checkbox-page1">
+        <input type="checkbox" id="checkbox-page2">
+        <input type="checkbox" id="checkbox-page3">
+        <input type="checkbox" id="checkbox-page4">
+        <input type="checkbox" id="checkbox-page5">
+        <input type="checkbox" id="checkbox-page6">
+        <input type="checkbox" id="checkbox-page7">
+        <input type="checkbox" id="checkbox-page8">
+        <input type="checkbox" id="checkbox-page9">
+        <input type="checkbox" id="checkbox-page10">
+        <input type="checkbox" id="checkbox-page11">
+        <input type="checkbox" id="checkbox-page12">
+        <input type="checkbox" id="checkbox-page13">
+        <input type="checkbox" id="checkbox-page14">
+        <div class="book">
+            <div class="cover">
+                <div id="react-wrapper">
+                    <div id="react">
+                      <div id="react-inner"></div>
+                      <div id="react-innerdot"></div>
+                    </div>
+                  </div> 
+                <img src="logo.png" alt="logo" class="logo">              
+                    
+                <p class="title">ASP</p> 
+                <p class="title1">.net</p>
+                    <label for="checkbox-cover"></label>                
+            </div>
+
+            <div class="page" id="page1">
+                <div class="front-page">
+                    <p class="first">ASP.NET OVERVIEW</p>
+                    <label class="next" for="checkbox-page1">></i></label>
+                </div>
+                <div class="back-page">
+                    <img src="1.jpg">       
+                    <label class="prev" for="checkbox-page1"><</i></label>
+                </div>
+            </div>
+
+            <div class="page" id="page2">
+                <div class="front-page">
+                    <img src="2.jpg">
+                    <label class="next" for="checkbox-page2">></i></label>
+                </div>
+                <div class="back-page">
+                    <img src="3.jpg">                  
+                    <label class="prev" for="checkbox-page2"><</i></label>
+                </div>
+            </div>
+
+            <div class="page" id="topic1">
+                <div class="front-page">
+                    <img src="4.jpg">
+                    <label class="next" for="checkbox-page11">></i></label>
+                </div>
+                <div class="back-page">           
+                    <label class="prev" for="checkbox-page11"><</i></label>
+                </div>
+            </div>
+            
+            <div class="page" id="page3">
+                <div class="front-page">
+                    <p class="topic1">WEB FORMS</p>
+                    <label class="next" for="checkbox-page3">></i></label>
+                </div>
+                <div class="back-page">
+                    <p class="second">WEB FORMS</p>
+                    <p class="third">
+                        ASP.NET Web Forms - is a part of the ASP.NET web application framework and is included with Visual Studio. 
+                        It is one of the four programming models you can use to create ASP.NET web applications, the others are ASP.NET MVC, ASP.NET Web Pages, and ASP.NET Single Page Applications.
+                        Web Forms are pages that your users request using their browser. These pages can be written using a combination of HTML, client-script, server controls, and server code. When users request a page, it is compiled and executed on the server by the framework, and then the framework generates the HTML markup that the browser can render. An ASP.NET Web Forms page presents information to the user in any browser or client device.
+                        Using Visual Studio, you can create ASP.NET Web Forms. The Visual Studio Integrated Development Environment (IDE) lets you drag and drop server controls to lay out your Web Forms page. You can then easily set properties, methods, and events for controls on the page or for the page itself. These properties, methods, and events are used to define the web page's behavior, look and feel, and so on. To write server code to handle the logic for the page, you can use a .NET language like Visual Basic or C#.
+                    </p>
+                    <p class="fourth">
+                        Note:
+                    </p>
+                    <p class="fifth">
+                        ASP.NET and Visual Studio documentation spans several versions. Topics that highlight features from previous versions may be useful for your current tasks and scenarios using the latest versions.
+                    </p>
+                    <p class="six">
+                        ASP.NET Web Forms are:
+                    </p>
+                    <p class="seven">
+                        •	Based on Microsoft ASP.NET technology, in which code that runs on the server dynamically generates Web page output to the browser or client device.
+                       <br> •	Compatible with any browser or mobile device.
+                       <br> •	Compatible with any language supported by the .NET common language runtime, such as Microsoft Visual Basic and Microsoft Visual C#.
+                       <br> •	Built on the Microsoft .NET Framework.
+                    <br>•	Flexible because you can add user-created and third party controls to them.
+
+                    </p>
+                    <label class="prev" for="checkbox-page3"><</i></label>
+                </div>
+            </div>
+
+            <div class="page" id="page4">
+                <div class="front-page">
+                    <p class="eight">
+                        ASP.NET Web Forms offer:
+                    </p>
+                    <p class="nine">
+                        •Separation of HTML and other UI code from application logic.
+                    <br>•A rich suite of server controls for common tasks, including data access.
+                    <br>•Powerful data binding, with great tool support.
+                    <br>•Support for client-side scripting that executes in the browser.
+                    <br>•Support for a variety of other capabilities, including routing, security, performance, internationalization, testing, debugging, error handling and state management.
+                    </p>
+                    <p class="tenth">
+                        ASP.NET Web Forms Helps You Overcome Challenges
+                    </p>
+                    <p class="eleven">
+                        Web application programming presents challenges that do not typically arise when programming traditional client-based applications. Among the challenges are:
+                    </p>
+                    <p class="twelve">
+                        •	Implementing a rich Web user interface - It can be difficult and tedious to design and implement a user interface using basic HTML facilities, especially if the page has a complex layout, a large amount of dynamic content, and full-featured user-interactive objects.
+                <br>     •	Separation of client and server - In a Web application, the client (browser) and server are different programs often running on different computers (and even on different operating systems). Consequently, the two halves of the application share very little information; they can communicate, but typically exchange only small chunks of simple information.
+                <br>        •	Stateless execution - When a Web server receives a request for a page, it finds the page, processes it, sends it to the browser, and then discards all page information. If the user requests the same page again, the server repeats the entire sequence, reprocessing the page from scratch. Put another way, a server has no memory of pages that it has processed—page are stateless. Therefore, if an application needs to maintain information about a page, its stateless nature can become a problem.
+                <br>        •	Unknown client capabilities - In many cases, Web applications are accessible to many users using different browsers. Browsers have different capabilities, making it difficult to create an application that will run equally well on all of them.
+                    </p>
+
+                    <label class="next" for="checkbox-page4">></i></label>
+                </div>
+                <div class="back-page">
+                    <p class="thirteen">
+                        <br>
+                        •	Complications with scalability - In many cases Web applications designed with existing methods fail to meet scalability goals due to the lack of compatibility between the various components of the application. This is often a common failure point for applications under a heavy growth cycle.
+                    </p>
+                    <p class="fourteen">
+                        Meeting these challenges for Web applications can require substantial time and effort. ASP.NET Web Forms and the ASP.NET framework address these challenges in the following ways:
+                    </p>
+                    <p class="fifteen">
+                        •	Intuitive, consistent object model - The ASP.NET page framework presents an object model that enables you to think of your forms as a unit, not as separate client and server pieces. In this model, you can program the page in a more intuitive way than in traditional Web applications, including the ability to set properties for page elements and respond to events. In addition, ASP.NET server controls are an abstraction from the physical contents of an HTML page and from the direct interaction between browser and server. In general, you can use server controls the way you might work with controls in a client application and not have to think about how to create the HTML to present and process the controls and their contents.
+                        <br>•	Event-driven programming model - ASP.NET Web Forms bring to Web applications the familiar model of writing event handlers for events that occur on either the client or server. The ASP.NET page framework abstracts this model in such a way that the underlying mechanism of capturing an event on the client, transmitting it to the server, and calling the appropriate method is all automatic and invisible to you. The result is a clear, easily written code structure that supports event-driven development.
+                        <br>•	Intuitive state management - The ASP.NET page framework automatically handles the task of maintaining the state of your page and its controls, and it provides you with explicit ways to maintain the state of application-specific information. This is accomplished without heavy use of server resources and can be implemented with or without sending cookies to the browser.
+                        <br>•	Browser-independent applications - The ASP.NET page framework enables you to create all application logic on the server, eliminating the need to explicitly code for differences in browsers. However, it still enables you to take advantage of browser-specific features by writing client-side code to provide improved performance and a richer client experience.
+
+
+                    </p>
+                    
+                    <label class="prev" for="checkbox-page4"><</i></label>
+                </div>
+            </div>
+
+            <div class="page" id="page5">
+                <div class="front-page">
+                    <p class="sixteen">
+                        •	.NET Framework common language runtime support - The ASP.NET page framework is built on the .NET Framework, so the entire framework is available to any ASP.NET application. Your applications can be written in any language that is compatible that is with the runtime. In addition, data access is simplified using the data access infrastructure provided by the .NET Framework, including ADO.NET.
+                    <br>•	.NET Framework scalable server performance - The ASP.NET page framework enables you to scale your Web application from one computer with a single processor to a multi-computer Web farm cleanly and without complicated changes to the application's logic.
+                    </p>
+                    <p class="seventeen">
+                        Features of ASP.NET Web Forms
+                    </p>
+                    <p class="eighteen">
+                        •	Server Controls - are objects on ASP.NET Web pages that run when the page is requested and that render markup to the browser. 
+                            Many Web server controls are similar to familiar HTML elements, such as buttons and text boxes. Other controls encompass complex behavior, such as a calendar controls, and controls that you can use to connect to data sources and display data.
+                    <br>•	Master Pages- allow you to create a consistent layout for the pages in your application. 
+                            A single master page defines the look and feel and standard behavior that you want for all of the pages (or a group of pages) in your application. You can then create individual content pages that contain the content you want to display. When users request the content pages, they merge with the master page to produce output that combines the layout of the master page with the content from the content page.
+                    <br>•	Working with Data- it provides many options for storing, retrieving, and displaying data. 
+                            In an ASP.NET Web Forms application, you use data-bound controls to automate the presentation or input of data in web page UI elements such as tables and text boxes and drop-down lists.
+                    <br>•	Membership - identity stores your users' credentials in a database created by the application. 
+                            When your users log in, the application validates their credentials by reading the database. Your project's Account folder contains the files that implement the various parts of membership: registering, logging in, changing a password, and authorizing access. 
+                    </p>
+                    <label class="next" for="checkbox-page5">></i></label>
+                </div>
+                <div class="back-page">
+                    <p class="nineteen">
+                        <br>
+                        •	Client Script and Client Frameworks- You can enhance the server-based features of ASP.NET by including client-script functionality in ASP.NET Web Form pages. You can use client script to provide a richer, more responsive user interface to users. You can also use client script to make asynchronous calls to the Web server while a page is running in the browser.
+                    <br>•	Routing- allows you to configure an application to accept request URLs that do not map to physical files. 
+                            A request URL is simply the URL a user enters into their browser to find a page on your web site. You use routing to define URLs that are semantically meaningful to users and that can help with search-engine optimization (SEO).
+                    <br>•	State Management- includes several options that help you preserve data on both a per-page basis and an application-wide basis.
+                    <br>•	Security- An important part of developing a more secure application is to understand the threats to it. 
+                            Microsoft has developed a way to categorize threats: Spoofing, Tampering, Repudiation, Information disclosure, Denial of service, Elevation of privilege (STRIDE). In ASP.NET Web Forms, you can add extensibility points and configuration options that enable you to customize various security behaviors in ASP.NET Web Forms.
+                    <br>•	Performance-  can be a key factor in a successful Web site or project.
+                            ASP.NET Web Forms allows you to modify performance related to page and server control processing, state management, data access, application configuration and loading, and efficient coding practices.
+                    <br>•	Internationalization- enables you to create web pages that can obtain content and other data based on the preferred language setting for the browser or based on the user's explicit choice of language. 
+                            Content and other data is referred to as resources and such data can be stored in resource files or other sources. In an ASP.NET Web Forms page, you configure controls to get their property values from resources. At run time, the resource expressions are replaced by resources from the appropriate localized resource file.
+                    <br>•	Debugging and Error Handling- includes features to help you diagnose problems that might arise in your Web Forms application. 
+                            Debugging and error handling are well supported within ASP.NET Web Forms so that your applications compile and run effectively.
+                    <br>•	Deployment and Hosting- Visual Studio, ASP.NET, Azure, and IIS provide tools that help you with the process of deploying and hosting your Web Forms application.
+
+                    </p>
+                    <label class="prev" for="checkbox-page5"><</i></label>
+                </div>
+            </div>
+
+            <div class="page" id="page6">
+                <div class="front-page">
+                    <p class="twenty">
+                        Deciding When to Create a Web Forms Application
+                    </p>
+                    <p class="twenty-one">
+                        You must consider carefully whether to implement a Web application by using either the ASP.NET Web Forms model or another model, such as the ASP.NET MVC framework. The MVC framework does not replace the Web Forms model; you can use either framework for Web applications. Before you decide to use the Web Forms model or the MVC framework for a specific Web site, weigh the advantages of each approach.
+                    </p>
+                    <p class="twenty-two">
+                        Advantages of a Web Forms-Based Web Application
+                    </p>
+                    <p class="twenty-three">
+                        The Web Forms-based framework offers the following advantages:
+                    </p>
+                    <p class="twenty-four">
+                        •	It supports an event model that preserves state over HTTP, which benefits line-of-business Web application development.
+                    <br>•	It uses a Page Controller pattern that adds functionality to individual pages.  
+                    <br>•	It uses view state or server-based forms, which can make managing state information easier.
+                    <br>•	It works well for small teams of Web developers and designers who want to take advantage of the large number of components available for rapid application development.
+                    <br>•	In general, it is less complex for application development, because the components  are tightly integrated and usually require less code than the MVC model.
+                    </p>
+                    <p class="twenty-five">
+                        Advantages of an MVC-Based Web Application
+                    </p>
+                    <p class="twenty-six">
+                        The ASP.NET MVC framework offers the following advantages:
+                    </p>
+                    <p class="twenty-seven">
+                        •	It makes it easier to manage complexity by dividing an application into the model, the view, and the controller.
+                    <br>•	It does not use view state or server-based forms. 
+                    <br>•	It uses a Front Controller pattern that processes Web application requests through a single controller.  
+                    <br>•	It provides better support for test-driven development (TDD).
+                    </p>
+                    <label class="next" for="checkbox-page6">></i></label>
+                </div>
+                <div class="back-page">                  
+                    <label class="prev" for="checkbox-page6"><</i></label>
+                </div>
+            </div>
+
+            <div class="page" id="page7">
+                <div class="front-page">
+                    <p class="first">SERVER AND USER CONTROL</p>
+                    <label class="next" for="checkbox-page7">></i></label>
+                </div>
+                <div class="back-page">
+                    <p class="_28">
+                        Server Controls - are the tags that are understood by the server. 
+                    </p>
+                    <p class="_29">
+                        There are basically three types of server controls.
+                    </p>
+                    <p class="_30">
+                        •	HTML Server Controls - Traditional HTML tags
+                    <br>•	Web Server Controls - New ASP. NET tags
+                    <br>•	Validation Server Controls - For input validation
+                    </p>
+                    <p class="_31">
+                        ASP.NET HTML Server Controls
+                    </p>
+                    <p class="_32">
+                        ASP.NET provides a way to work with HTML Server controls on the server side; programming with a set of controls collectively is called HTML Controls.
+                    </p>
+                    <p class="_33">
+                        •	These controls are grouped together in the Visual Studio Toolbox in the HTML Control tab. The markup of the controls is similar to the HTML control.
+                    <br>•	These controls are basically the original HTML controls but enhanced to enable server side processing.
+                    <br>•	HTML elements in ASP. NET files are, by default, treated as text. To make these elements programmable, add a runat="server" attribute to the HTML element. This attribute indicates that the element should be treated as a server control.
+                    </p>
+                    <p class="fourth">
+                        Note:
+                    </p>
+                    <p class="_32">
+                        All HTML server controls must be within a &lt;form&gt; tag with the runat="server" attribute. The runat="server" attribute indicates that the form should be processed on the server. It also indicates that the enclosed controls can be accessed by server scripts.
+                    </p>
+                    <p class="_32" style="margin-top: 10px;">
+                        The System.Web.UI.HtmlControls.HtmlControl base class contains all of the common properties. HTML server controls derive from this class.
+                    </p>
+                    <label class="prev" for="checkbox-page7"><</i></label>
+                </div>
+            </div>
+
+            <div class="page" id="page8">
+                <div class="front-page">
+                    <p class="_34">
+                        ASP.NET Web Server Controls
+                    </p>
+                    <p class="_35">
+                        •	Web server controls are special ASP. NET tags understood by the server.
+                    <br>•	Like HTML server controls, Web server controls are also created on the server and they require a runat="server" attribute to work.
+                    <br>•	However, Web server controls do not necessarily map to any existing HTML elements and they may represent more complex elements.
+                    <br>•	Mostly all Web Server controls inherit from a common base class, namely the WebControl class defined in the System.Web.UI.WebControls namespace.
+                    </p>
+                    <p class="_34">
+                        ASP.NET Validation Server Controls
+                    </p>
+                    <p class="_35">
+                        •	After you create a web form, you should make sure that mandatory fields of the form elements such as login name and password are not left blank; data inserted is correct and is within the specified range. Validation is the method of scrutinizing (observing) that the user has entered the correct values in input fields.
+                    <br>•	A Validation server control is used to validate the data of input control. If the data does not pass validation, it will display an error message to the user.
+                    <br>•	In ASP. NET you can use ASP. NET Validation Controls while creating the form and specify what ASP. NET Validation Controls you want to use and to which server control you want to bind this.
+                    <br>•	Validation Controls are derived from a common base class and share a common set of properties and methods. You just have to drag and drop the ASP. NET Validation Control in the web form and write one line of code to describe its functionality.
+                    <br>•	This reduces the developer time from writing JavaScript for each type of validation. Moreover, through ASP. NET Validation Controls if any invalid data is entered the browser itself detects the error on the client-side and displays the error without requesting the server. This is another advantage because it reduces the server load.
+                    </p>
+                    <label class="next" for="checkbox-page8">></i></label>
+                </div>
+                <div class="back-page">
+                     <p class="_28">
+                        The following table describes the WEB server controls:
+                     </p>
+                     <image src="7.png" style="width: 400px; height: 400px; padding-left: 50px;">
+                     <p class="_31">
+                        ASP.NET User Controls Overview
+                     </p>
+                     <p class="_32">
+                        At times, you might need functionality in a control that is not provided by the built-in ASP.NET Web server controls. In those cases, you can create your own controls. You have two options. You can create:
+                     </p>     
+                    <label class="prev" for="checkbox-page8"><</i></label>
+                </div>
+            </div>
+
+            <div class="page" id="page9">
+                <div class="front-page">
+                    <p class="_35">
+                        •	User controls - are containers into which you can put markup and Web server controls. 
+                    <br>•	Custom controls - is a class that you write that derives from Control or WebControl.    
+                    </p>
+                    <p class="_32">
+                        User controls are substantially easier to create than custom controls, because you can reuse existing controls. They make it particularly easy to create controls with complex user interface elements.
+                        <br><br>
+
+                        <b>User Control Structure </b>
+
+                        <br><br>
+                        An ASP.NET Web user control is similar to a complete ASP.NET Web page (.aspx file), with both a user interface page and code. You create the user control in much the same way you create an ASP.NET page and then add the markup and child controls that you need. A user control can include code to manipulate its contents like a page can, including performing tasks such as data binding.
+                        <br><br>
+                        A user controls differs from an ASP.NET Web page in these ways:
+                    </p>
+                    <p class="_35">
+                        •	The file name extension for the user control is .ascx.
+                    <br>•	Instead of an at Page directive, the user control contains an at Control directive that defines configuration and other properties.
+                    <br>•	User controls cannot run as stand-alone files. Instead, you must add them to ASP.NET pages, as you would any control.
+                    <br>•	The user control does not have html, body, or form elements in it. These elements must be in the hosting page.
+                    </p>
+                    <p class="_32">
+                        You can use the same HTML elements (except the html, body, or form elements) and Web controls on a user control that you do on an ASP.NET Web page. For example, if you are creating a user control to use as a toolbar, you can put a series of Button Web server controls onto the control and create event handlers for the buttons.
+                    </p>
+                    <label class="next" for="checkbox-page9">></i></label>
+                </div>
+                <div class="back-page">
+                    <p class="_32">
+                        <br>
+                        Adding a User Control to a Page
+                        <br><br>
+                        You add a user control to a page by registering it on the host page. When you register it, you specify the .ascx file that contains the user control, a tag prefix, and a tag name that you will use to declare the user control on the page. For details, see How to: Include a User Control in an ASP.NET Web Page.
+                        <br><br>
+                        Defining Properties and Methods for a User Control
+                        <br><br>
+                        You can define properties and methods for a user control the same way you do for a page. By defining a property for a user control, you make it possible to set its properties declaratively and in code.
+                        <br><br>
+                        Events in User Controls
+                        <br><br>
+                        When a user control contains Web server controls, you can write code in the user control to handle the events raised by the child controls. For example, if your user control contains a Button control, you can create a handler in the user control for the button's Click event.
+                        By default, events raised by child controls in a user control are not available to the host page. However, you can define events for your user control and raise them so that the host page is notified of the event. You do this in the same way that you define events for any class. For more information, see Raising an Event.
+                        <br><br>
+                        Referencing External Resources
+                        <br><br>
+                        When a user control runs, references to external resources such as images or anchors to other pages are resolved using the URL of the user control as the base URL. For example, if the user control contains an Image control whose ImageUrl property is set to Images/Button1.gif, the URL of the image is added to the URL of the user control to resolve the complete path to the image. If the user control references a resource that is not in a subfolder of the user control itself, you must provide a path that resolves to the correct folder at run time. For more information on specifying paths for ASP.NET server controls, see ASP.NET Web Site Paths.
+                    </p>      
+                    <label class="prev" for="checkbox-page9"><</i></label>
+                </div>
+            </div>
+
+            <div class="page" id="page10">
+                <div class="front-page">
+                    <p class="_32">
+                        Caching and User Controls
+                        <br><br>
+                        User controls can support caching directives that are separate from the host page. You can therefore add user controls to pages and to cache portions of a page. For details, see Caching Portions of an ASP.NET Page.
+
+                        <br><br>
+                        <b>Note:</b>&nbspThe table above describes the web server control.  Find an example syntax to each web server control.
+                    </p>
+                    <label class="next" for="checkbox-page10">></i></label>
+                </div>
+                <div class="back-page">
+                        
+                    <label class="prev" for="checkbox-page10"><</i></label>
+                </div>
+            </div>
+
+            <div class="page" id="page11">
+                <div class="front-page">
+                    <p class="first">
+                        IIS Web Server Overview
+                    </p>
+                    <label class="next" for="checkbox-page12">></i></label>
+                </div>
+                <div class="back-page">
+                    <p class="_32">
+                        <br>
+                        <b>Compatibility</b>
+                        <br><br>
+                        Expand table
+                        <br>
+                        <b>Version</b> &nbsp&nbsp&nbsp&nbsp	<b>Notes</b>
+                        <br>
+                        IIS 7.0 and later	The features described in this article were introduced in IIS 7.0.
+                    <br>IIS 6.0 and earlier	The features described in this article were not supported prior to IIS 7.0.
+                        <br><br>
+                        The IIS 7 and later web servers have a completely modular architecture which offers three key benefits:
+                    </p>
+                    <p class="_35">
+                        •	Componentization
+                    <br>•	Extensibility
+                    <br>•	ASP.NET Integration
+                    </p>
+                    <p class="_32">
+                        <b>Componentization</b>
+                        <br><br>
+                        All of the Web server features are now managed as standalone components which you can easily add, remove, and replace. This enables several key advantages over previous versions of IIS:
+                    </p>
+                    <p class="_35">
+                        1.&nbsp	<b>Secure the server by reducing the attack surface area</b>. Reducing surface area is one of the most powerful ways to secure a server system. With IIS, you can remove all unused server features, achieving the minimum surface area possible while preserving the functionality of your application.
+                    <br>2.&nbsp	<b>Improve performance and reduce memory footprint</b>. By removing unused server features, you can also reduce the amount of memory the server uses, and improve performance by reducing the amount of feature code that executes on every request to your application.
+                    <br>3.&nbsp	<b>Build custom / specialized servers</b>. By selecting a particular set of server features, you can build custom servers that are optimized for performing a specific function within your application topology, such as edge caching or load balancing. You can add custom features to extend or replace any existing functionality using your own or third party server components built on the new extensibility APIs. 
+                    </p>
+                    <label class="prev" for="checkbox-page12"><</i></label>
+                </div>
+            </div>
+
+            <div class="page" id="page12">
+                <div class="front-page">
+                    <p class="_32">
+                        IIS has also componentized the powerful HTTP process activation model introduced in IIS 6.0 with Application Pools. The HTTP process activation model is available for more than just Web applications, receiving requests or messages over any protocol. This protocol independent service is called the Windows Process Activation Service (WAS). The Windows Communication Foundation (WCF) ships with protocol adapters that can leverage the capabilities of the WAS, improving the reliability and resource usage of WCF services.
+                    </p>
+                    <p class="_32">
+                        <br>
+                        <b>Extensibility</b>
+                        <br><br>
+                        Developers can leverage the modular architecture of IIS to build powerful server components that extend or replace the existing Web server features and add value to web applications hosted on IIS.
+                        <br><br>
+                        Here are reasons to develop for IIS:
+                    </p>
+                    <p class="_35">
+                        1.&nbsp	<b>Empower Web applications</b>. Extending IIS enables Web applications to benefit from functionality that in many cases cannot be easily provided at the application layer. Using the IIS ASP.NET or native C++ extensibility, developers can build solutions that add value for all application components, such as custom authentication schemes, monitoring and logging, security filtering, load balancing, content redirection, and state management.
+                    <br>2.&nbsp	<b>Better development experience</b>. The brand new C++ extensibility model alleviates most of the problems that previously plagued the ISAPI development, introducing a simplified object oriented API that promotes writing robust server code. In addition, better Visual Studio integration further improves the experience of developing for IIS.
+                    <br>3.&nbsp	<b>Use the full power of ASP.NET</b>. ASP.NET integration enables server modules to be rapidly developed with the familiar interfaces of ASP.NET 2.0 and rich ASP.NET application services. ASP.NET modules can provide services uniformly to ASP, CGI, static files and other content types, and can fully extend the server without the limitation present in previous versions of IIS.
+
+                    </p>
+                    <label class="next" for="checkbox-page13">></i></label>
+                </div>
+                <div class="back-page">
+                    <p class="_32">
+                        <br>
+                        <b>ASP.NET Integration</b>
+                        <br><br>
+                        IIS allows Web applications to fully leverage the powerful features and extensibility of ASP.NET 2.0. ASP.NET features including forms-based authentication, membership, session state and many others can be used for all types of content, providing a unified experience across the entire Web application. Developers can use the familiar ASP.NET extensibility model and rich .NET APIs to build IIS server features that are as powerful as those written using the native C++ APIs.
+                        <br><br>
+                        Use the links below to start learning the aspects of IIS configuration, see a lab about getting started and download kits with resources readily available on IIS.NET.
+                    </p>
+                    <label class="prev" for="checkbox-page13"><</i></label>
+                </div>
+            </div>
+
+            <div class="page" id="page13">
+                <div class="front-page">
+
+                    <label class="next" for="checkbox-page14">></i></label>
+                </div>
+                <div class="back-page">
+       
+                    <label class="prev" for="checkbox-page14"><</i></label>
+                </div>
+            </div>
+
+            <div class="back-cover"></div>
+        </div>
+    </body>
+</body>
+</html>
